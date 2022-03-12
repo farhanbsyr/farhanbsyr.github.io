@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+main{
+    margin: 80px 130px 80px 130px;
+}
+nav{
+    margin: 30px 130px 0 130px;
+    justify-content: space-between;
+}
+nav a:hover{
+    color: rgb(0, 67, 155);
+    
+}
+.logo-judul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 20px;
+}
+.logo img{
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+}
+header ul{
+    font-size: 17px;
+    font-weight: bold;
+}
+header li{
+    padding-left: 50px;
+    float: left;  
+}
+header a{
+    color: black;
+}
+.container{
+    padding: 0 0 0 255px ;
+    width: 700px;
+    margin-bottom: 75px;
+}
+.perkenalan h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.perkenalan p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    text-align: justify;
+}
+.container2{
+    padding: 0 0 0 255px;
+    width: 700px;
+    margin-bottom: 75px;
+    font-family: 'Raleway', sans-serif;
+}
+.container2 p{
+    width: 100%;
+    font-size: 18px;
+}
+.container2 h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.container2 ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 ul li{
+    padding: 0;
+    text-align: center;
+}
+
+.container3 ul li{
+    padding: 0;
+    text-align: center;
+}
+i{
+    padding-bottom: 15px;
+}
+.fa-html5{
+    color: red;
+}
+.fa-css3{
+    color:dodgerblue;
+}
+.fa-js{
+    color:gold;
+}
+.container3{
+    padding: 0 0 0 255px;
+    width: 700px;
+    margin-bottom: 75px;
+    font-family: 'Raleway', sans-serif;
+}
+.container3 h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.project img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+}
+.project img:hover{
+    border: solid 2px blue;
+    
+}
+footer{
+    background-color: rgb(26, 25, 31);
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;    
+}
+.kelas{
+    width: 100%;
+    height: 50px;
+
+}
+footer ul{
+    padding: 0;
+}
+footer h5{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.contact ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+footer .fa-brands{
+    color: white;
+}
+.contact a{
+    color: white;
+}
